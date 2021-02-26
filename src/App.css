@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: #61dafb;
 }
 
 .App-logo {
@@ -36,3 +37,9 @@
     transform: rotate(360deg);
   }
 }
+form {
+  border: 2px solid black;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #f8f8ff;
+  /* display: flex;  */
