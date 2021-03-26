@@ -3,6 +3,7 @@ import { NavLink, Route, useHistory } from "react-router-dom";
 import styled from "styled-components";
 import Home from "./Home";
 import Form from "./Form";
+import Help from "./Help";
 import Confirmation from "./Confirmation";
 import * as yup from "yup";
 import schema from "./Validation/form_schema";
@@ -171,6 +172,7 @@ const App = () => {
       </StyledHeader>
 
       <Route exact path="/" component={Home} />
+      <Route path="/help" component={Help} />
 
       <Route path="/pizza">
         <Form

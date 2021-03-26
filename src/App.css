@@ -43,3 +43,11 @@ form {
   margin: 0 auto;
   background-color: #f8f8ff;
   /* display: flex;  */
+}
+.form-container {
+  display: felx;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
