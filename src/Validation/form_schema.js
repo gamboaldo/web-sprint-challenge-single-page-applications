@@ -1,5 +1,5 @@
 import * as yup from "yup";
-// import { string } from "yup/lib/locale";
+// import { string } from "yup/lib/locale";;;
 
 export default yup.object().shape({
   name: yup

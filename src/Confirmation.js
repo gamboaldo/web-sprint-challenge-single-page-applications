@@ -1,5 +1,5 @@
 import React from "react";
-
+//confirmation
 export default function Confirmation({ order }) {
   if (!order) {
     return <h3>Processing your order...</h3>;

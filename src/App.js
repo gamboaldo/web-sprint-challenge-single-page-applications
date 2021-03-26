@@ -43,7 +43,7 @@ const StyledHeader = styled.nav`
   }
 `;
 
-// Initial States:
+// Initial States:::
 const initialFormValues = {
   name: "",
   size: "",
